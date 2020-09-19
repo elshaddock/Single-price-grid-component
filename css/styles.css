@@ -1,0 +1,94 @@
+
+/* headings */
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+}
+
+#title .title-heading{
+  color: #2AB3B1;
+  margin-bottom: 20px;
+}
+
+#title .sub-heading{
+  color: #C0DF33;
+  margin-bottom: 20px;
+}
+
+
+/* paragraphs */
+
+p{
+  font-family: 'Karla', sans-serif;
+}
+
+#title p{
+  color: #9AA7BE;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+/* title */
+
+#title{
+  background-color: #fff;
+  padding: 5% 10%;
+}
+
+/* features */
+
+#features{
+  color: #fff;
+}
+
+.month{
+  color: #2AB3B1;
+}
+
+.subscription{
+  background-color: #1FA09E;
+  padding: 7% 15%;
+}
+
+.explanation{
+  background-color: #2AB3B1;
+  padding: 7% 15%;
+}
+
+.price{
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+.access{
+  margin-bottom: 50px;
+}
+
+.sign-up{
+  background-color: #C0DF33;
+}
+
+#features .explanation h3{
+  margin-bottom: 30px;
+}
+
+
+/* Media Queiries */
+
+@media (max-width: 700px) {
+  #title{
+    padding: 5% 10%;
+  }
+  #title .title-heading{
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  #title .sub-heading{
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+  #title p{
+    font-size: 14px;
+  }
+}
